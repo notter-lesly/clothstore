@@ -1,0 +1,28 @@
+$text-color: #888787;
+$black-color: #090808;
+
+.footer {
+  display: flex;
+  width: 100%;
+  background-color: $black-color;
+  position: absolute;
+  margin-bottom: 0;
+  color: $text-color;
+  font-family: arial;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.5rem;
+  li {
+    padding: 0.5rem;
+  }
+  a {
+    color: $text-color;
+  }
+  .linksList {
+    li {
+      display: inline-block;
+      margin: 0.3rem;
+    }
+  }
+}

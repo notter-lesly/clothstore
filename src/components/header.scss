@@ -1,0 +1,30 @@
+$line-color: rgb(221, 221, 221);
+$title-color: rgb(36, 36, 36);
+
+.title {
+  margin: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  h1 {
+    font-family: "Shadows Into Light", cursive;
+    font-size: 3.5rem;
+  }
+  ul {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.7rem;
+    color: black;
+    display: flex;
+
+    a {
+      color: black;
+      margin: 0.5rem;
+    }
+  }
+}
+.line {
+  width: 50%;
+  margin: auto;
+  height: 1px;
+  border: 1px solid $line-color;
+  background-color: $line-color;
+}

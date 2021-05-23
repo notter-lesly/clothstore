@@ -1,0 +1,18 @@
+.clothes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+
+  li {
+    padding: 0 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  img {
+    width: 15rem;
+    height: 18rem;
+  }
+}
